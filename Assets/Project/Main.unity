@@ -163,8 +163,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 218692}
-  selectedCommands:
-  - {fileID: 218694}
+  selectedCommands: []
   variables:
   - {fileID: 218693}
   description: 
@@ -362,7 +361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: '{$msg}'
+  storyText: '{wi}{$msg}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3739,7 +3738,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTextObject: {fileID: 267221084}
   punchObject: {fileID: 414723892}
-  writingSpeed: 60
+  writingSpeed: 120
   punctuationPause: 0.25
   hiddenTextColor: {r: 1, g: 1, b: 1, a: 0}
   writeWholeWords: 0
@@ -4185,7 +4184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - "You examine the corpse. \n\nMale, early thirties, recently deceased, a hammer
+  - "You examine the corpse.\n\nMale, early thirties, recently deceased, a hammer
     blow to the back of the head.\nClothes were fully removed for the procedure to
     surgically remove his member. \n\nI'm not proud of this job, but if my client
     requested a specific male genitalia, I will deliver the goods."
