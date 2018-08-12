@@ -9,25 +9,32 @@ public class Combine : MonoBehaviour {
         public Interact o2;
         [TextArea(3, 10)]
         public string[] desc;
+        [System.NonSerialized]
+        public int idx;
     }
     public Combination[] combinations;
 
-    private Dictionary<string, string[]> dict;
+    private Dictionary<string, Combination> dict;
 
     public string Lookup(string o1, string o2, string defaultMessage) {
         string key = NormalizePair(o1, o2);
-        if (dict.ContainsKey(key)) {
-            return dict[key][0];
+        if (!dict.ContainsKey(key)) {
+            return defaultMessage;
         }
-        return defaultMessage;
+        Combination c = dict[key];
+        string text = c.desc[c.idx++];
+        if (c.idx > c.desc.Length - 1)
+            c.idx = c.desc.Length - 1;
+        dict[key] = c;
+        return text;
     }
 
     private void Start() {
-        dict = new Dictionary<string, string[]>();
+        dict = new Dictionary<string, Combination>();
         foreach (Combination c in combinations) {
             string s1 = c.o1.name;
             string s2 = c.o2.name;
-            dict.Add(NormalizePair(s1, s2), c.desc);
+            dict.Add(NormalizePair(s1, s2), c);
         }
     }
 

@@ -2727,6 +2727,7 @@ MonoBehaviour:
     o2: {fileID: 2091825608}
     desc:
     - You stuff the body into the car.
+    - You already stuffed the body into the car.
   - o1: {fileID: 1880924198}
     o2: {fileID: 2113023611}
     desc:
