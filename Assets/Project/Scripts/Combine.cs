@@ -14,12 +14,12 @@ public class Combine : MonoBehaviour {
 
     private Dictionary<string, string[]> dict;
 
-    public string Lookup(string o1, string o2, string d1, string d2) {
+    public string Lookup(string o1, string o2, string defaultMessage) {
         string key = NormalizePair(o1, o2);
         if (dict.ContainsKey(key)) {
             return dict[key][0];
         }
-        return "You can't seem to use the " + d1 + " with the " + d2 + ".";
+        return defaultMessage;
     }
 
     private void Start() {
