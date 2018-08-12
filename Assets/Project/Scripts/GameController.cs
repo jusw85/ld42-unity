@@ -75,9 +75,9 @@ public class GameController : Singleton<GameController> {
         UpdateActionText(text);
     }
 
-    public void OnMouseDown(string id, string desc, string examine, string use) {
+    public bool OnMouseDown(string id, string desc, string examine, string use) {
         if (textPanelOpen)
-            return;
+            return false;
         string text = "";
         if (tool.Equals("eye")) {
             text = examine;
@@ -99,12 +99,13 @@ public class GameController : Singleton<GameController> {
                 combineText = actionText.text;
                 obj1_id = id;
                 obj1_desc = desc;
-                return;
+                return false;
             }
         }
         UpdateActionText("");
         textPanelOpen = true;
         StartCoroutine(ActivateToolPanel(text));
+        return true;
     }
 
     private IEnumerator ActivateToolPanel(string text) {
