@@ -403,8 +403,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - You examine the body.
-  - You find nothing else from the body.
+  - 'You examine the body.
+
+
+    They say dead man don''t talk but I want to be doubly sure.'
+  - 'With the arms and legs extended, I have trouble fitting the body into the trunk.
+
+
+    You find nothing else from the body.'
   use:
   - You poke the body.
 --- !u!60 &95652391
@@ -700,7 +706,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: duct tape
   examine:
-  - You examine the duct tape.
+  - 'You examine the duct tape.
+
+
+    Always handy to have duct tape lying around. Useful for tying objects.'
+  - 'You examine the duct tape.
+
+
+    Always handy to have duct tape lying around. Useful for tying objects.'
+  - 'You examine the duct tape.
+
+
+    Always handy to have duct tape lying around. Useful for tying objects.'
+  - 'You examine the duct tape.
+
+
+    Always handy to have duct tape lying around. Useful for tying objects.
+
+
+    ... handy ... duct tape ... tying...
+
+    ... hands tied?'
+  - 'You examine the duct tape.
+
+
+    Always handy to have duct tape lying around. Useful for tying objects.'
   use:
   - You poke the duct tape.
 --- !u!60 &222281288
@@ -1052,10 +1082,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: teddy
   examine:
-  - You examine the teddy.
-  - You find nothing else from the teddy.
+  - "You examine the teddy.\n\nA saliva drenched, heavily hugged stuffed toy that
+    my niece carries around. \n\nShe left it in my car last week."
+  - 'The soft. cuddly exterior is a perfect concealement of a bloodstained murder
+    weapon.
+
+
+    You find nothing else from the teddy.'
   use:
-  - You poke the teddy.
+  - You poke the teddy. Still soft and cuddly.
 --- !u!60 &461593992
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1418,9 +1453,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: aluminium foil
   examine:
-  - You examine the aluminium foil.
+  - 'You examine the aluminium foil.
+
+
+    Normally used for packaging of food. But now is not a normal situation.
+
+'
+  - "You examine the aluminium foil.\n\nImagine the sherlock holmes, crouching and
+    holding a magnifying glass to examine this piece of sheet at the crime scene.
+    \n\"Your plans are foiled, murderer!\" said the detective.\n\nWow I can be cheesy
+    at times. Melted cheese spread over the foil. Yummy.\t"
+  - 'You examine the aluminium foil.
+
+
+    Which side of the aluminium foil should touch the food? The dull side or the shiny
+    side?
+
+
+    I could almost smell the sweet aroma of roasted pork wrapped in foil as it was
+    retrieved from the oven.
+
+'
+  - 'You examine the aluminium foil.
+
+
+    Normally used for packaging of food. But now is not a normal situation.
+
+'
   use:
-  - You poke the aluminium foil.
+  - 'You poke the aluminium foil. It tears.
+
+
+    I should probably not waste it like that.'
 --- !u!60 &756797352
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1679,7 +1743,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: plant
   examine:
-  - You examine the plant.
+  - 'You examine the plant.
+
+
+    A fagrant herb used as seasoning.'
   use:
   - You poke the plant.
 --- !u!60 &902463426
@@ -1783,7 +1850,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 964703749}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -25, z: 0}
+  m_LocalPosition: {x: 0, y: -12.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 387514975}
@@ -1791,8 +1858,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -25}
-  m_SizeDelta: {x: -200, y: -50}
+  m_AnchoredPosition: {x: 0, y: -12.5}
+  m_SizeDelta: {x: -60, y: -25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &964703751
 MonoBehaviour:
@@ -2019,7 +2086,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: shoe
   examine:
-  - You examine the shoe.
+  - 'You examine the shoe.
+
+
+    Typical converse design, 6 pairs of eyelets with straight bar lacing. The "All
+    Star" branding revealed at the tip of the tongue.'
   use:
   - You poke the shoe.
 --- !u!60 &1253112067
@@ -2150,8 +2221,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - You examine the body.
-  - You find nothing else from the body.
+  - You examine the body, rosemary leaves strewn across his naked body.
+  - 'It is almost as if I am preparing a dish for dinner.
+
+
+    You find nothing else from the body.'
   use:
   - You poke the body.
 --- !u!60 &1337906162
@@ -2536,7 +2610,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: dress
   examine:
-  - You examine the dress.
+  - 'You examine the dress.
+
+
+    I have no recollection of this dress. Does it belong to my girlfriend?
+
+    Too late for that now, I used whatever that was available to wipe the blood and
+    brain juice from my car.'
+  - 'You examine the blood stained dress.
+
+
+    Probably makes her look fat, that''s why she never wore this. She wouldn''t even
+    remember if this dress disappears.'
+  - 'You examine the blood stained dress.
+
+
+    A nice floral sundress that can be worn on happier times. Unfortunately it resembles
+    more like a butcher''s apron now.'
+  - 'Perhaps I can fit into it. A perfect disguise! '
+  - 'You examine the bloodstained dress.
+
+
+    I probably should hide it.'
   use:
   - You poke the dress.
 --- !u!60 &1426437247
@@ -2752,8 +2847,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - You examine the body.
-  - You find nothing else from the body.
+  - 'You examine the body.
+
+
+    Now that it is tied up with duct tape, it should fit into the trunk.'
+  - 'It is still too naked with an unbearable stench. Not something that can be explained
+    to the cops.
+
+
+    You find nothing else from the body.
+
+'
   use:
   - You poke the body.
 --- !u!60 &1490872471
@@ -3087,7 +3191,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: dildo
   examine:
-  - You examine the dildo.
+  - 'You examine the dildo.
+
+
+    A huge 12 inch monster, I bought as a gift for my girlfriend, to compensate for
+    my inadequate 3 inch pecker that doesn''t get hard.
+
+'
+  - 'You examine the dildo.
+
+
+    If the cops sees this, it will invite questions. Better stuff it somewhere.
+
+'
   use:
   - You poke the dildo.
 --- !u!60 &1848727381
@@ -3259,13 +3375,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - You examine the fat body.
-  - 'an old man
+  - "You examine the corpse. \n\nMale, early thirties, recently deceased, a hammer
+    blow to the back of the head.\nClothes were fully removed for the procedure to
+    surgically remove his member. \n\nI'm not proud of this job, but if my client
+    requested a specific male genitalia, I will deliver the goods."
+  - 'hmm...
 
-'
-  - You find nothing else from the body.
+
+    I really need to fit this chunk of flesh into the trunk for disposal. I cannot
+    be caught with all these evidence lying around!'
+  - 'A leaf was strategically placed so that I will not see the gaping hole where
+    his member used to be.
+
+    With the arms and legs extended, I have trouble fitting the body into the trunk.
+
+
+    You find nothing else from the body.'
   use:
-  - You poke the body.
+  - You poke the body carefully, making sure he is dead.
 --- !u!60 &1880924199
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3464,10 +3591,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - You examine the body.
-  - You find nothing else from the body.
+  - 'You examine the body with a stuffed dildo.
+
+
+    Kind of an upgrade if you ask me.'
+  - 'With the arms and legs extended, I have trouble fitting the body into the trunk.
+
+
+    You find nothing else from the body.'
   use:
-  - You poke the body.
+  - You poke the body gently, tp ensure the leaf remains where it is.
 --- !u!60 &2060792313
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3665,8 +3798,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: car
   examine:
-  - You examine the car.
-  - You find nothing else from the car.
+  - 'You examine the car.
+
+
+    Unfortunately I did not clear out the trunk before this mission.'
+  - 'I have to fit everything inside the trunk.
+
+
+    You find nothing else from the car.'
   use:
   - You poke the car.
 --- !u!60 &2091825609
@@ -3825,9 +3964,13 @@ MonoBehaviour:
   desc: body
   examine:
   - You examine the body.
-  - You find nothing else from the body.
+  - 'Now, it does look like a stuffed pig for the oven.
+
+
+    You find nothing else from the body.'
   use:
-  - You poke the body.
+  - You poke the aluminium foil wrapping softly, making sure not the tear it and ruin
+    it.
 --- !u!60 &2106940617
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3993,8 +4136,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: hammer
   examine:
-  - You examine the hammer.
-  - You find nothing else from the hammer.
+  - "You examine the hammer.\n\nA bloodstained, murderous-looking steel claw hammer.
+    \nSingle blow at the back of his head was all it takes. This happens when a hard,
+    moving object meets a soft skull of a human."
+  - The claw of the hammer was used to extract his goods. It was not a pretty sight.
+  - 'This weapon needs to be hidden somewhere that no one will not expect.
+
+
+    You find nothing else from the hammer.'
   use:
   - You poke the hammer.
 --- !u!60 &2113023612
