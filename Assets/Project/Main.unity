@@ -468,8 +468,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 105241871}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 480, y: 270, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 457, y: 270.5, z: 0}
+  m_LocalScale: {x: 0.95208335, y: 0.95208335, z: 0.95208335}
   m_Children:
   - {fileID: 823834373}
   - {fileID: 387514975}
@@ -1326,7 +1326,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 823834372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 480, y: 270, z: 0}
+  m_LocalPosition: {x: 480, y: 284.11377, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 242123887}
@@ -1642,7 +1642,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1156744275}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -270, z: 0}
+  m_LocalPosition: {x: 0, y: -284.11377, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 105241875}
@@ -3044,7 +3044,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - You examine the body.
+  - You examine the fat body.
+  - 'an old man
+
+'
   - You find nothing else from the body.
   use:
   - You poke the body.
