@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 218688}
   - component: {fileID: 218689}
   - component: {fileID: 218690}
+  - component: {fileID: 218691}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -267,6 +268,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 218691}
   - {fileID: 218690}
 --- !u!114 &218690
 MonoBehaviour:
@@ -283,6 +285,24 @@ MonoBehaviour:
   indentLevel: 0
   duration: 1
   targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &218691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 218683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  duration: 0
+  targetAlpha: 1
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
