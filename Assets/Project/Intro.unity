@@ -215,7 +215,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 137167712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 835.1784, y: -336.87, z: 0}
+  m_LocalPosition: {x: 888.16675, y: -336.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1399966726}
@@ -544,8 +544,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 138032223}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 457, y: 270.5, z: 0}
-  m_LocalScale: {x: 0.45083332, y: 0.45083332, z: 0.45083332}
+  m_LocalPosition: {x: 480, y: 270, z: 0}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
   m_Children:
   - {fileID: 1399966726}
   m_Father: {fileID: 0}
@@ -737,7 +737,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1374440910}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 574.7784, y: -811.925, z: 0}
+  m_LocalPosition: {x: 627.7667, y: -811.925, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1152048}
@@ -981,7 +981,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1440860064}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -427.1784, y: 561.63, z: 0}
+  m_LocalPosition: {x: -480.16675, y: 561.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1399966726}
@@ -1148,6 +1148,7 @@ GameObject:
   - component: {fileID: 1896661432}
   - component: {fileID: 1896661433}
   - component: {fileID: 1896661428}
+  - component: {fileID: 1896661434}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1181,7 +1182,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1896661429}
   selectedCommands:
-  - {fileID: 1896661432}
+  - {fileID: 1896661434}
   variables: []
   description: 
   stepPause: 0
@@ -1269,6 +1270,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1896661432}
   - {fileID: 1896661431}
+  - {fileID: 1896661434}
   - {fileID: 1896661433}
 --- !u!114 &1896661430
 MonoBehaviour:
@@ -1362,6 +1364,24 @@ MonoBehaviour:
     stringVal: Main
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1896661434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1896661424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 6
+  indentLevel: 0
+  duration: 0
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
 --- !u!1 &1964203858
 GameObject:
   m_ObjectHideFlags: 1
