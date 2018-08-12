@@ -85,7 +85,11 @@ public class GameController : Singleton<GameController> {
             text = use;
         } else if (tool.Equals("combine")) {
             if (isCombining) {
-                text = combinations.Lookup(obj1_id, id, "You can't seem to use the " + obj1_desc + " with the " + desc + ".");
+                if (!combinations.CanCombine(obj1_id, id)) {
+                    text = "You can't seem to use the " + obj1_desc + " with the " + desc + ".";
+                } else {
+                    text = combinations.CombineObjects(obj1_id, id);
+                }
                 isCombining = false;
                 combineText = "";
                 obj1_id = "";

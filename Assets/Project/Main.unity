@@ -2728,14 +2728,20 @@ MonoBehaviour:
     desc:
     - You stuff the body into the car.
     - You already stuffed the body into the car.
+    toDisable: []
+    toEnable: []
   - o1: {fileID: 1880924198}
     o2: {fileID: 2113023611}
     desc:
     - You smash the body with the weapon.
+    toDisable: []
+    toEnable: []
   - o1: {fileID: 461593991}
     o2: {fileID: 2113023611}
     desc:
     - You rip apart the teddy with the weapon.
+    toDisable: []
+    toEnable: []
   - o1: {fileID: 461593991}
     o2: {fileID: 1880924198}
     desc:
@@ -2743,6 +2749,17 @@ MonoBehaviour:
 
 
       They make out furiously.'
+    toDisable: []
+    toEnable: []
+  - o1: {fileID: 1848727380}
+    o2: {fileID: 1880924198}
+    desc:
+    - You stuff the dildo into the corpse.
+    toDisable:
+    - {fileID: 1880924195}
+    - {fileID: 1848727378}
+    toEnable:
+    - {fileID: 2060792310}
 --- !u!1 &1793869548
 GameObject:
   m_ObjectHideFlags: 0

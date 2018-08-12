@@ -11,21 +11,31 @@ public class Combine : MonoBehaviour {
         public string[] desc;
         [System.NonSerialized]
         public int idx;
+        public GameObject[] toDisable;
+        public GameObject[] toEnable;
     }
     public Combination[] combinations;
 
     private Dictionary<string, Combination> dict;
 
-    public string Lookup(string o1, string o2, string defaultMessage) {
+    public bool CanCombine(string o1, string o2) {
         string key = NormalizePair(o1, o2);
-        if (!dict.ContainsKey(key)) {
-            return defaultMessage;
-        }
+        return dict.ContainsKey(key);
+    }
+
+    public string CombineObjects(string o1, string o2) {
+        string key = NormalizePair(o1, o2);
         Combination c = dict[key];
         string text = c.desc[c.idx++];
         if (c.idx > c.desc.Length - 1)
             c.idx = c.desc.Length - 1;
         dict[key] = c;
+        foreach (GameObject obj in c.toDisable) {
+            obj.SetActive(false);
+        }
+        foreach (GameObject obj in c.toEnable) {
+            obj.SetActive(true);
+        }
         return text;
     }
 
