@@ -603,7 +603,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 78329242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.166748, y: 311.63, z: 0}
+  m_LocalPosition: {x: 22.821594, y: 311.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 414723893}
@@ -944,8 +944,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 105241871}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 480, y: 270, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 457, y: 270.5, z: 0}
+  m_LocalScale: {x: 0.95208335, y: 0.95208335, z: 0.95208335}
   m_Children:
   - {fileID: 823834373}
   - {fileID: 1156744276}
@@ -1008,26 +1008,21 @@ MonoBehaviour:
   - 'You examine the duct tape.
 
 
-    Always handy to have duct tape lying around. Useful for tying objects.'
-  - 'You examine the duct tape.
-
-
-    Always handy to have duct tape lying around. Useful for tying objects.'
+    Always {i}handy{/i} to have duct tape lying around. Useful for {i}tying{/i} objects.'
   - 'You examine the duct tape.
 
 
     Always handy to have duct tape lying around. Useful for tying objects.
 
 
-    ... handy ... duct tape ... tying...
-
-    ... hands tied?'
+    ... handy ... duct tape ... tying...'
   - 'You examine the duct tape.
 
 
-    Always handy to have duct tape lying around. Useful for tying objects.'
+    A handy object that could be used to tie up something.'
   use:
-  - You poke the duct tape.
+  - You pick up the roll of duct tape, and twirl it round your finger like a 5 year
+    old pretending to be a cowboy.
 --- !u!60 &222281288
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1673,13 +1668,12 @@ MonoBehaviour:
   examine:
   - "You examine the teddy.\n\nA saliva drenched, heavily hugged stuffed toy that
     my niece carries around. \n\nShe left it in my car last week."
-  - 'The soft. cuddly exterior is a perfect concealement of a bloodstained murder
-    weapon.
+  - 'The soft. cuddly exterior could be used to conceal something.
 
 
     You find nothing else from the teddy.'
   use:
-  - You poke the teddy. Still soft and cuddly.
+  - You pick up the teddy. Still soft and cuddly.
 --- !u!60 &461593992
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1799,7 +1793,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 469457997}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 527.7667, y: -266.92502, z: 0}
+  m_LocalPosition: {x: 474.77838, y: -266.92502, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 791045423}
@@ -2511,7 +2505,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 767873338}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 438.16675, y: -86.869995, z: 0}
+  m_LocalPosition: {x: 385.1784, y: -86.869995, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 414723893}
@@ -2622,7 +2616,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 823834372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 480, y: 270, z: 0}
+  m_LocalPosition: {x: 480, y: 284.11377, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 242123887}
@@ -2867,7 +2861,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1156744275}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -270, z: 0}
+  m_LocalPosition: {x: 0, y: -284.11377, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 105241875}
@@ -3032,8 +3026,21 @@ MonoBehaviour:
   - 'You examine the shoe.
 
 
-    Typical converse design, 6 pairs of eyelets with straight bar lacing. The "All
-    Star" branding revealed at the tip of the tongue.'
+    Typical converse design, canvas with rubber sole and white toe cap.'
+  - 'You examine the shoe.
+
+
+    Typical converse design, 2 holes on the side that serves no purpose. A star shaped
+    logo on the side.'
+  - 'You examine the shoe.
+
+
+    Typical converse design, 6 pairs of eyelets with straight bar lacing. The "Converse
+    All Star" branding revealed at the tip of the tongue.'
+  - 'You examine the shoe.
+
+
+    Typical converse, something something..can''t remember it at the tip of the tongue.'
   use:
   - You poke the shoe.
 --- !u!60 &1253112067
@@ -3707,7 +3714,8 @@ MonoBehaviour:
   - 'You examine the bloodstained dress.
 
 
-    I probably should hide it.'
+    Oh yeah, this dress belong to the cross-dressing dead man here. I should hide
+    it.'
   use:
   - You poke the dress.
 --- !u!60 &1426437247
@@ -4114,8 +4122,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1507852634}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 480, y: 270, z: 0}
-  m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
+  m_LocalPosition: {x: 457, y: 270.5, z: 0}
+  m_LocalScale: {x: 0.45083332, y: 0.45083332, z: 0.45083332}
   m_Children:
   - {fileID: 414723893}
   m_Father: {fileID: 0}
@@ -4954,7 +4962,9 @@ MonoBehaviour:
 
     You find nothing else from the body.'
   use:
-  - You poke the body gently, tp ensure the leaf remains where it is.
+  - 'You nudge the body gently, to ensure the leaf remains where it is.
+
+    Still dead.'
 --- !u!60 &2060792313
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5161,7 +5171,9 @@ MonoBehaviour:
 
     You find nothing else from the car.'
   use:
-  - You poke the car.
+  - 'You run your finger across the car''s exterior.
+
+    Clean!'
 --- !u!60 &2091825609
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5490,16 +5502,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: hammer
   examine:
-  - "You examine the hammer.\n\nA bloodstained, murderous-looking steel claw hammer.
-    \nSingle blow at the back of his head was all it takes. This happens when a hard,
-    moving object meets a soft skull of a human."
+  - "You examine the hammer.\n\nA murderous-looking steel claw hammer. \nSingle blow
+    at the back of his head was all it takes. This happens when a hard, moving object
+    meets a soft skull of a human.\nCold blooded murder."
   - The claw of the hammer was used to extract his goods. It was not a pretty sight.
-  - 'This weapon needs to be hidden somewhere that no one will not expect.
+  - 'This weapon needs to be hidden somewhere that no one will expect.
 
 
     You find nothing else from the hammer.'
   use:
-  - You poke the hammer.
+  - 'You gently stroke the long, hard shaft of the hammer. '
 --- !u!60 &2113023612
 PolygonCollider2D:
   m_ObjectHideFlags: 0
