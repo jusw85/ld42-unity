@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+using Fungus;
+
 public class GameController : Singleton<GameController> {
 
     public ToggleGroup toolPanel;
     public Text actionText;
-    public GameObject textPanel;
-    public Text descriptionText;
     public Combine combinations;
+    public Flowchart flowChart;
 
     [System.NonSerialized]
     public string tool;
@@ -22,7 +23,6 @@ public class GameController : Singleton<GameController> {
     private void Start() {
         UpdateSelectedTool();
         UpdateActionText("");
-        textPanel.SetActive(false);
     }
 
     public void OnToolChanged() {
@@ -30,12 +30,6 @@ public class GameController : Singleton<GameController> {
     }
 
     private void Update() {
-        if (Input.GetMouseButtonDown(0)) {
-            if (textPanelOpen) {
-                textPanel.SetActive(false);
-                textPanelOpen = false;
-            }
-        }
     }
 
     private void UpdateSelectedTool() {
@@ -48,7 +42,7 @@ public class GameController : Singleton<GameController> {
     }
 
     public void OnMouseOver(string id, string desc) {
-        if (textPanelOpen)
+        if (isTextPanelOpen())
             return;
         string text = "";
         if (tool.Equals("eye")) {
@@ -66,7 +60,7 @@ public class GameController : Singleton<GameController> {
     }
 
     public void OnMouseExit(string id, string desc) {
-        if (textPanelOpen)
+        if (isTextPanelOpen())
             return;
         string text = "";
         if (tool.Equals("combine") && isCombining) {
@@ -76,7 +70,7 @@ public class GameController : Singleton<GameController> {
     }
 
     public bool OnMouseDown(string id, string desc, string examine, string use) {
-        if (textPanelOpen)
+        if (isTextPanelOpen())
             return false;
         string text = "";
         if (tool.Equals("eye")) {
@@ -104,24 +98,22 @@ public class GameController : Singleton<GameController> {
         }
         UpdateActionText("");
         textPanelOpen = true;
-        StartCoroutine(ActivateToolPanel(text));
+        flowChart.SetStringVariable("msg", text);
+        flowChart.ExecuteBlock("DialogBox");
         return true;
     }
 
-    private IEnumerator ActivateToolPanel(string text) {
-        yield return new WaitForEndOfFrame();
-        UpdateActionText("");
-        textPanelOpen = true;
-        UpdateDescriptionText(text);
-        textPanel.SetActive(true);
-        yield return null;
+    private bool isTextPanelOpen() {
+        foreach (Block b in flowChart.GetExecutingBlocks()) {
+            if (b.BlockName.Equals("DialogBox")) {
+                return true;
+            }
+        }
+        return false;
     }
 
     private void UpdateActionText(string text) {
         actionText.text = text;
     }
 
-    private void UpdateDescriptionText(string text) {
-        descriptionText.text = text;
-    }
 }
