@@ -3660,15 +3660,12 @@ MonoBehaviour:
     Why only one side? where is the other shoe that comes with it?'
   - 'Oh yea, I remember now. These were my converse. Loved it and worn it all the
     time. Then one day, I was admiring this cute little Shih Tzu, and in a moment
-    of madness, I stepped it''s dog shit. The shoe was fucking ruined. I threw out
-    the shit stained sneaker and never saw it again. '
+    of madness, I stepped its dog shit. The shoe was fucking ruined with dog shit.
+    I threw out the shit stained sneaker and never saw it again. '
   - I don't know why I still keep this remaining shoe. It is as useless as the Shih
     Tzu shit shoe.
   use:
-  - 'I poke the shoe.
-
-
-    I hope my creators write more content here for a postjam version!'
+  - I lift the shoe up and smell it. Doesn't smell like dog shit.
 --- !u!60 &1253112067
 PolygonCollider2D:
   m_ObjectHideFlags: 0
