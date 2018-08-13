@@ -14,7 +14,6 @@ public class GameController : Singleton<GameController> {
 
     [System.NonSerialized]
     public string tool;
-    private bool textPanelOpen = false;
     private bool isCombining = false;
     private string combineText;
     private string obj1_id;
@@ -97,7 +96,6 @@ public class GameController : Singleton<GameController> {
             }
         }
         UpdateActionText("");
-        textPanelOpen = true;
         if (false) { // To trigger on end condition
             flowChart.SetBooleanVariable("toEnd", true);
         }

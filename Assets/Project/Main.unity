@@ -172,7 +172,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 218689}
+  - {fileID: 218692}
   selectedCommands: []
   variables:
   - {fileID: 218693}
@@ -562,7 +562,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &218704
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 218683}
@@ -4777,8 +4777,16 @@ MonoBehaviour:
     If the cops see this, it will invite questions. Better stuff it somewhere.'
   - If the cops see this, it will invite questions. Better stuff it somewhere.
   use:
-  - You poke the dildo.
-  - You poke the dildo.
+  - 'Once upon a time, when I was young, virile, and adventurous, I snuck off with
+    Mummy''s credit card and bought a one month subscription to BackdoorPasses.com,
+    a bottle of lube, and a glass jar from the interwebs.{wi}
+
+
+    Let''s just say I''ll never forget that trip to the hospital.'
+  - 'Nope, you''re not convincing me to try that again.
+
+
+    I still have nightmares.'
 --- !u!60 &1848727381
 PolygonCollider2D:
   m_ObjectHideFlags: 0
