@@ -163,8 +163,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 218692}
+  selectedCommands:
+  - {fileID: 218696}
   variables:
   - {fileID: 218693}
   description: 
@@ -335,8 +337,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 218694}
   - {fileID: 218696}
+  - {fileID: 218694}
 --- !u!114 &218693
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -407,7 +409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 04daa4e9ae46988438923ca2e639125a, type: 3}
   volume: 1
   waitUntilFinished: 0
 --- !u!1 &30474682
