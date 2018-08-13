@@ -288,7 +288,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 137167712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.5, y: -275.37, z: 0}
+  m_LocalPosition: {x: 888.16675, y: -336.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1399966726}
@@ -617,7 +617,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 138032223}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 270, y: 538.5, z: 0}
+  m_LocalPosition: {x: 480, y: 270, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1399966726}
@@ -1159,7 +1159,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1374440910}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -168.90002, y: -811.925, z: 0}
+  m_LocalPosition: {x: 627.7667, y: -811.925, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1152048}
@@ -1364,7 +1364,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1399966721}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1066.6667, y: 600, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1440860065}
@@ -1403,7 +1403,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1440860064}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 316.5, y: 500.13, z: 0}
+  m_LocalPosition: {x: -480.16675, y: 561.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1399966726}
@@ -1554,7 +1554,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1499304415}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 338.5, z: 0}
+  m_LocalPosition: {x: 0, y: 400, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1374440911}
@@ -2347,6 +2347,7 @@ GameObject:
   - component: {fileID: 1896661434}
   - component: {fileID: 1896661437}
   - component: {fileID: 1896661441}
+  - component: {fileID: 1896661445}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2380,7 +2381,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1896661436}
   selectedCommands:
-  - {fileID: 1896661441}
+  - {fileID: 1896661445}
   variables: []
   description: 
   stepPause: 0
@@ -2615,6 +2616,7 @@ MonoBehaviour:
   - {fileID: 1896661444}
   - {fileID: 1896661443}
   - {fileID: 1896661432}
+  - {fileID: 1896661445}
   - {fileID: 1896661437}
   - {fileID: 1896661441}
   - {fileID: 1896661434}
@@ -2777,6 +2779,26 @@ MonoBehaviour:
   _targetGameObject:
     gameObjectRef: {fileID: 0}
     gameObjectVal: {fileID: 1768656817}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1896661445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1896661424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 50
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 47015833}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
