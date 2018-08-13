@@ -13,6 +13,7 @@ public class GameController : Singleton<GameController> {
     public Flowchart flowChart;
 
     public GameObject[] endObjs;
+    public Button endButton;
 
     [System.NonSerialized]
     public string tool;
@@ -100,11 +101,16 @@ public class GameController : Singleton<GameController> {
         }
         UpdateActionText("");
         if (canEnd()) { // To trigger on end condition
-            flowChart.SetBooleanVariable("toEnd", true);
+            endButton.gameObject.SetActive(true);
         }
         flowChart.SetStringVariable("msg", text);
         flowChart.ExecuteBlock("DialogBox");
         return true;
+    }
+
+    public void EndGame() {
+        flowChart.SetBooleanVariable("toEnd", true);
+        flowChart.ExecuteBlock("Ending");
     }
 
     private bool isTextPanelOpen() {
