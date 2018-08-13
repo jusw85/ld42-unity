@@ -1911,14 +1911,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: teddy
   examine:
-  - "You examine the teddy.\n\nA saliva drenched, heavily hugged stuffed toy that
-    my niece carries around. \n\nShe left it in my car last week."
-  - 'The soft. cuddly exterior could be used to conceal something.
-
-
-    You find nothing else from the teddy.'
+  - "A saliva drenched, heavily hugged stuffed teddy bear that my six year old niece
+    carries around. \n\nShe left it in my car last week."
+  - The soft. cuddly exterior could be used to conceal something.
   use:
-  - You pick up the teddy. Still soft and cuddly.
+  - I pick up the teddy. Still soft and cuddly.
 --- !u!60 &461593992
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4984,7 +4981,7 @@ MonoBehaviour:
   examine:
   - "Male, early thirties, recently deceased, a hammer blow to the back of the head.\nClothes
     were fully removed for the procedure to surgically remove his member. \n\nI'm
-    not proud of this job, but if my client requested a specific male genitalia, I
+    not proud of this job, but if my client requests a specific male genitalia, I
     will deliver the goods."
   - 'hmm...
 
@@ -5406,18 +5403,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: car
   examine:
-  - 'You examine the car.
+  - 'An early 2000 Toyota Camry.
 
 
-    Unfortunately I did not clear out the trunk before this mission.'
-  - 'I have to fit everything inside the trunk.
-
-
-    You find nothing else from the car.'
+    Unfortunately I didn''t clear out the trunk before the mission.'
+  - I have to fit everything inside the trunk.
   use:
-  - 'You run your finger across the car''s exterior.
+  - 'I run my fingers across the car''s exterior.
 
-    Clean!'
+
+    Very clean!'
 --- !u!60 &2091825609
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5746,16 +5741,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: hammer
   examine:
-  - "You examine the hammer.\n\nA murderous-looking steel claw hammer. \nSingle blow
-    at the back of his head was all it takes. This happens when a hard, moving object
-    meets a soft skull of a human.\nCold blooded murder."
+  - "A blood drenched murderous-looking steel claw hammer. \nSingle blow at the back
+    of his head was all it took. This happens when a hard, moving object meets the
+    soft skull of a human.\nCold blooded murder."
   - The claw of the hammer was used to extract his goods. It was not a pretty sight.
-  - 'This weapon needs to be hidden somewhere that no one will expect.
-
-
-    You find nothing else from the hammer.'
+  - With all the blood coating the hammer, I can't leave it lying around. It needs
+    to be hidden somewhere where no one will expect.
   use:
-  - 'You gently stroke the long, hard shaft of the hammer. '
+  - I gently stroke the long, hard shaft of the hammer and admire it's smoothness
+    and firmness.
 --- !u!60 &2113023612
 PolygonCollider2D:
   m_ObjectHideFlags: 0
