@@ -849,7 +849,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 78329242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.166748, y: 311.63, z: 0}
+  m_LocalPosition: {x: 13.901123, y: 311.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 414723893}
@@ -1187,8 +1187,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 105241871}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 480, y: 270, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 452.5, y: 265.5, z: 0}
+  m_LocalScale: {x: 0.9427083, y: 0.9427083, z: 0.9427083}
   m_Children:
   - {fileID: 823834373}
   - {fileID: 1156744276}
@@ -2294,7 +2294,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 469457997}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 527.7667, y: -266.92502, z: 0}
+  m_LocalPosition: {x: 483.69885, y: -266.92502, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 791045423}
@@ -2574,7 +2574,7 @@ MonoBehaviour:
   - 'A jar of pickles (with penis).
 
 
-    I hope creators write more content here for the postjam version!'
+'
   use:
   - 'A jar of pickles (with penis).
 
@@ -3137,7 +3137,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 767873338}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 438.16675, y: -86.869995, z: 0}
+  m_LocalPosition: {x: 394.09888, y: -86.869995, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 414723893}
@@ -3248,7 +3248,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 823834372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 480, y: 270, z: 0}
+  m_LocalPosition: {x: 480, y: 281.63538, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 242123887}
@@ -3496,7 +3496,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1156744275}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -270, z: 0}
+  m_LocalPosition: {x: 0, y: -281.63538, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 105241875}
@@ -4103,15 +4103,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: jar of pickles
   examine:
-  - 'A jar of pickles.
-
-
-    I hope creators write more content here for the postjam version!'
+  - An empty jar which was used for pickles.
   use:
-  - 'A jar of pickles.
-
-
-    I hope creators write more content here for the postjam version!'
+  - The jar is empty inside.
 --- !u!212 &1345163384
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4811,8 +4805,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1507852634}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 480, y: 270, z: 0}
-  m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
+  m_LocalPosition: {x: 452.5, y: 265.5, z: 0}
+  m_LocalScale: {x: 0.4425, y: 0.4425, z: 0.4425}
   m_Children:
   - {fileID: 414723893}
   m_Father: {fileID: 0}
@@ -5147,21 +5141,21 @@ MonoBehaviour:
     toEnable:
     - {fileID: 95652388}
   - o1: {fileID: 95652390}
-    o2: {fileID: 222281287}
-    desc:
-    - I wrap his arms and legs with duct tape.
-    toDisable:
-    - {fileID: 95652388}
-    - {fileID: 222281285}
-    toEnable:
-    - {fileID: 1490872468}
-  - o1: {fileID: 1490872470}
     o2: {fileID: 902463425}
     desc:
     - I sprinkle some herbs on his body to mask the stench of death.
     toDisable:
-    - {fileID: 1490872468}
+    - {fileID: 95652388}
     - {fileID: 902463423}
+    toEnable:
+    - {fileID: 1490872468}
+  - o1: {fileID: 1490872470}
+    o2: {fileID: 222281287}
+    desc:
+    - I tie up his arms and legs with duct tape.
+    toDisable:
+    - {fileID: 1490872468}
+    - {fileID: 222281285}
     toEnable:
     - {fileID: 1337906159}
   - o1: {fileID: 1337906161}
