@@ -109,13 +109,19 @@ public class GameController : Singleton<GameController> {
     }
 
     public void EndGame() {
-        flowChart.SetBooleanVariable("toEnd", true);
-        flowChart.ExecuteBlock("Ending");
+        if (!isBlockExecuting("Ending")) {
+            flowChart.SetBooleanVariable("toEnd", true);
+            flowChart.ExecuteBlock("Ending");
+        }
     }
 
     private bool isTextPanelOpen() {
+        return isBlockExecuting("DialogBox");
+    }
+
+    private bool isBlockExecuting(string blockName) {
         foreach (Block b in flowChart.GetExecutingBlocks()) {
-            if (b.BlockName.Equals("DialogBox")) {
+            if (b.BlockName.Equals(blockName)) {
                 return true;
             }
         }
