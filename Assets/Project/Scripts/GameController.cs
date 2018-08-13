@@ -98,6 +98,9 @@ public class GameController : Singleton<GameController> {
         }
         UpdateActionText("");
         textPanelOpen = true;
+        if (false) { // To trigger on end condition
+            flowChart.SetBooleanVariable("toEnd", true);
+        }
         flowChart.SetStringVariable("msg", text);
         flowChart.ExecuteBlock("DialogBox");
         return true;
