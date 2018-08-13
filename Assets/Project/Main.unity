@@ -944,10 +944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - 'You examine the body.
-
-
-    They say dead man don''t talk but I want to be doubly sure.'
+  - They say dead man don't talk but I want to be doubly sure.
   - 'With the arms and legs extended, I have trouble fitting the body into the trunk.
 
 
@@ -1754,9 +1751,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: bag of groceries
   examine:
-  - A bag of groceries.
+  - 'A bag of groceries.
+
+
+    I hope creators write more content here for the postjam version!'
   use:
-  - A bag of groceries.
+  - 'A bag of groceries.
+
+
+    I hope creators write more content here for the postjam version!'
 --- !u!60 &457501609
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1901,7 +1904,7 @@ MonoBehaviour:
   examine:
   - "A saliva drenched, heavily hugged stuffed teddy bear that my six year old niece
     carries around. \n\nShe left it in my car last week."
-  - The soft. cuddly exterior could be used to conceal something.
+  - The soft, cuddly exterior can be used to conceal something.
   use:
   - I pick up the teddy. Still soft and cuddly.
 --- !u!60 &461593992
@@ -2300,9 +2303,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: jar of pickles (with penis)
   examine:
-  - A jar of pickles (with penis).
+  - 'A jar of pickles (with penis).
+
+
+    I hope creators write more content here for the postjam version!'
   use:
-  - A jar of pickles (with penis).
+  - 'A jar of pickles (with penis).
+
+
+    I hope creators write more content here for the postjam version!'
 --- !u!60 &577966255
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3376,10 +3385,7 @@ MonoBehaviour:
   desc: body
   examine:
   - You examine the body, rosemary leaves strewn across his naked body.
-  - 'It is almost as if I am preparing a dish for dinner.
-
-
-    You find nothing else from the body.'
+  - It is almost as if I am preparing a dish for dinner.
   use:
   - You poke the body.
 --- !u!60 &1337906162
@@ -3684,9 +3690,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: jar of pickles
   examine:
-  - A jar of pickles.
+  - 'A jar of pickles.
+
+
+    I hope creators write more content here for the postjam version!'
   use:
-  - A jar of pickles.
+  - 'A jar of pickles.
+
+
+    I hope creators write more content here for the postjam version!'
 --- !u!212 &1345163384
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4129,17 +4141,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - 'You examine the body.
-
-
-    Now that it is tied up with duct tape, it should fit into the trunk.'
-  - 'It is still too naked with an unbearable stench. Not something that can be explained
+  - Now that it is tied up with duct tape, it should fit into the trunk.
+  - It is still too naked with an unbearable stench. Not something that can be explained
     to the cops.
-
-
-    You find nothing else from the body.
-
-'
   use:
   - You poke the body.
 --- !u!60 &1490872471
@@ -5361,12 +5365,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: car
   examine:
-  - 'This baby is my sidekick. An early 2000 red Toyota Camry, she''s the Pinky to
-    my Brain, Robin to my Batman, Fries to my Hamburger. She''s followed me on dozens
-    of missions and never failed me once.
+  - 'This beauty is my sidekick, Becca. An early 2000 red Honda Civic, she''s the
+    Robin to my Batman, Pinky to my Brain, Fries to my Hamburger. She''s followed
+    me on dozens of missions and never failed me once.
 
 
-    Unfortunately I didn''t clear out her trunk before the mission.'
+    Unfortunately I didn''t clean out her trunk before the mission.'
   - I have to fit everything inside the trunk.
   use:
   - 'I run my fingers delicately across her exterior.
@@ -5528,11 +5532,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - You examine the body.
   - 'Now, it does look like a stuffed pig for the oven.
 
-
-    You find nothing else from the body.'
+'
   use:
   - You poke the aluminium foil wrapping softly, making sure not the tear it and ruin
     it.
