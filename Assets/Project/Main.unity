@@ -410,7 +410,7 @@ MonoBehaviour:
   fadeDuration: 1
 --- !u!114 &218696
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 218683}
@@ -576,7 +576,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &218705
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 218683}
@@ -4611,26 +4611,26 @@ MonoBehaviour:
   - o1: {fileID: 1880924198}
     o2: {fileID: 2091825608}
     desc:
-    - You stuff the body into the car.
-    - You already stuffed the body into the car.
+    - The corpse is too large to fit into the car with all the other items strewn
+      about.
     toDisable: []
     toEnable: []
   - o1: {fileID: 1880924198}
     o2: {fileID: 2113023611}
     desc:
-    - You smash the body with the weapon.
+    - I've already killed him once.
     toDisable: []
     toEnable: []
   - o1: {fileID: 461593991}
     o2: {fileID: 2113023611}
     desc:
-    - You rip apart the teddy with the weapon.
+    - I hit the teddy repeatedly with the hammer. Murderer.
     toDisable: []
     toEnable: []
   - o1: {fileID: 461593991}
     o2: {fileID: 1880924198}
     desc:
-    - 'You push the toy and the body together.
+    - 'I push the teddy and the body together.
 
 
       They make out furiously.'
@@ -4639,12 +4639,57 @@ MonoBehaviour:
   - o1: {fileID: 1848727380}
     o2: {fileID: 1880924198}
     desc:
-    - You stuff the dildo into the corpse.
+    - I stuff the dildo into the corpse.
     toDisable:
     - {fileID: 1880924195}
     - {fileID: 1848727378}
     toEnable:
     - {fileID: 2060792310}
+  - o1: {fileID: 2060792312}
+    o2: {fileID: 1253112066}
+    desc:
+    - I push the shoe into his mouth.
+    toDisable:
+    - {fileID: 2060792310}
+    - {fileID: 1253112064}
+    toEnable:
+    - {fileID: 95652388}
+  - o1: {fileID: 95652390}
+    o2: {fileID: 222281287}
+    desc:
+    - I wrap his arms and legs with duct tape.
+    toDisable:
+    - {fileID: 95652388}
+    - {fileID: 222281285}
+    toEnable:
+    - {fileID: 1490872468}
+  - o1: {fileID: 1490872470}
+    o2: {fileID: 902463425}
+    desc:
+    - I sprinkle some herbs on his body to mask the stench of death.
+    toDisable:
+    - {fileID: 1490872468}
+    - {fileID: 902463423}
+    toEnable:
+    - {fileID: 1337906159}
+  - o1: {fileID: 1337906161}
+    o2: {fileID: 756797351}
+    desc:
+    - I wrap the body up in aluminium foil. Looks like a roasted pig now!
+    toDisable:
+    - {fileID: 1337906159}
+    - {fileID: 756797349}
+    toEnable:
+    - {fileID: 2106940614}
+  - o1: {fileID: 1345163383}
+    o2: {fileID: 30474684}
+    desc:
+    - I wrap the body up in aluminium foil. Looks like a roasted pig now!
+    toDisable:
+    - {fileID: 1345163381}
+    - {fileID: 30474682}
+    toEnable:
+    - {fileID: 577966252}
 --- !u!1 &1793869548
 GameObject:
   m_ObjectHideFlags: 0
