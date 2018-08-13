@@ -2525,38 +2525,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: aluminium foil
   examine:
-  - 'You examine the aluminium foil.
-
-
-    Normally used for packaging of food. But now is not a normal situation.
+  - 'Normally used for packaging food. But now is not a normal situation.
 
 '
-  - "You examine the aluminium foil.\n\nImagine the sherlock holmes, crouching and
-    holding a magnifying glass to examine this piece of sheet at the crime scene.
-    \n\"Your plans are foiled, murderer!\" said the detective.\n\nWow I can be cheesy
-    at times. Melted cheese spread over the foil. Yummy.\t"
-  - 'You examine the aluminium foil.
+  - "Picture Sherlock Holmes, hunched low, magnifying glass in hand, examining this
+    sheet of aluminium foil at the crime scene. \n\"Your plans are foiled, villain!\",
+    exclaimed the Detective.\n\nWow I can be cheesy at times. Melted cheese spread
+    over the foil. Yummy.\t"
+  - 'Which side of the aluminium foil should touch the food? The dull side or the
+    shiny side?
 
 
-    Which side of the aluminium foil should touch the food? The dull side or the shiny
-    side?
-
-
-    I could almost smell the sweet aroma of roasted pork wrapped in foil as it was
-    retrieved from the oven.
+    I can almost smell the sweet aroma of roasted pork wrapped in foil as it''s retrieved
+    from the oven.
 
 '
-  - 'You examine the aluminium foil.
-
-
-    Normally used for packaging of food. But now is not a normal situation.
-
-'
+  - Normally used for packaging food. But now is not a normal situation.
   use:
-  - 'You poke the aluminium foil. It tears.
+  - 'I poke the aluminium foil. It tears easily.
 
 
-    I should probably not waste it like that.'
+    I probably shouldn''t waste it like that.'
 --- !u!60 &756797352
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2984,9 +2973,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: plant
   examine:
-  - A fagrant herb used as seasoning.
+  - A fagrant herb used for seasoning.
   use:
-  - You poke the plant.
+  - I pluck a small leaf and hold it up to my nose. Sweet.
 --- !u!60 &902463426
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3250,26 +3239,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: shoe
   examine:
-  - 'You examine the shoe.
-
-
-    Typical converse design, canvas with rubber sole and white toe cap.'
-  - 'You examine the shoe.
-
-
-    Typical converse design, 2 holes on the side that serves no purpose. A star shaped
-    logo on the side.'
-  - 'You examine the shoe.
-
-
-    Typical converse design, 6 pairs of eyelets with straight bar lacing. The "Converse
-    All Star" branding revealed at the tip of the tongue.'
-  - 'You examine the shoe.
-
-
-    Typical converse, something something..can''t remember it at the tip of the tongue.'
+  - Typical converse design, canvas with rubber sole and white toe cap.
+  - Typical converse design, 2 holes on the side that serves no purpose. A star shaped
+    logo on the side.
+  - Typical converse design, 6 pairs of eyelets with straight bar lacing. The "Converse
+    All Star" branding revealed at the tip of the tongue.
+  - Typical converse, something something..can't remember it at the tip of the tongue.
   use:
-  - You poke the shoe.
+  - I poke the shoe.
 --- !u!60 &1253112067
 PolygonCollider2D:
   m_ObjectHideFlags: 0
