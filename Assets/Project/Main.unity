@@ -643,11 +643,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: penis
   examine:
-  - 'description
-
-    A severed penis.'
   - A severed penis.
   - A severed cock.
+  - A severed wang.
   - A severed pecker.
   - A severed prick.
   - A severed dick.
@@ -666,7 +664,10 @@ MonoBehaviour:
   - A severed wedding wrecker.
   - A severed penis.
   use:
-  - A severed penis.
+  - 'A severed penis.
+
+
+    I hope my creators write more content here for a postjam version!'
 --- !u!60 &30474685
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -945,13 +946,10 @@ MonoBehaviour:
   desc: body
   examine:
   - They say dead man don't talk but I want to be doubly sure.
-  - 'With his arms and legs splayed to the side, I have trouble fitting the body into
+  - With his arms and legs splayed to the side, I have trouble fitting the body into
     the trunk.
-
-
-    You find nothing else from the body.'
   use:
-  - You poke the body.
+  - I poke the body.
 --- !u!60 &95652391
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1751,12 +1749,12 @@ MonoBehaviour:
   - 'A bag of groceries.
 
 
-    I hope creators write more content here for the postjam version!'
+    I hope my creators write more content here for a postjam version!'
   use:
   - 'A bag of groceries.
 
 
-    I hope creators write more content here for the postjam version!'
+    I hope my creators write more content here for a postjam version!'
 --- !u!60 &457501609
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2976,9 +2974,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: plant
   examine:
-  - A fagrant herb used for seasoning.
+  - 'A fagrant herb used for seasoning.
+
+
+    I hope my creators write more content here for a postjam version!'
   use:
-  - I pluck a small leaf and hold it up to my nose. Sweet.
+  - 'I pluck a small leaf and hold it up to my nose. Sweet.
+
+
+    I hope my creators write more content here for a postjam version!'
 --- !u!60 &902463426
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3249,7 +3253,10 @@ MonoBehaviour:
     All Star" branding revealed at the tip of the tongue.
   - Typical converse, something something..can't remember it at the tip of the tongue.
   use:
-  - I poke the shoe.
+  - 'I poke the shoe.
+
+
+    I hope my creators write more content here for a postjam version!'
 --- !u!60 &1253112067
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3378,10 +3385,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - You examine the body, rosemary leaves strewn across his naked body.
+  - I examine the body, rosemary leaves strewn across his naked body.
   - It is almost as if I am preparing a dish for dinner.
   use:
-  - You poke the body.
+  - I poke the body.
 --- !u!60 &1337906162
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4139,7 +4146,7 @@ MonoBehaviour:
   - It is still too naked with an unbearable stench. Not something that can be explained
     to the cops.
   use:
-  - You poke the body.
+  - I poke the body.
 --- !u!60 &1490872471
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5150,16 +5157,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - 'You examine the body with a stuffed dildo.
+  - 'I examine the body with a stuffed dildo.
 
 
     Kind of an upgrade if you ask me.'
-  - 'With the arms and legs extended, I have trouble fitting the body into the trunk.
-
-
-    You find nothing else from the body.'
+  - With the arms and legs splayed to the side, I have trouble fitting the body into
+    the trunk.
   use:
-  - 'You nudge the body gently, to ensure the leaf remains where it is.
+  - 'I nudge the body gently, to ensure the leaf remains where it is.
 
     Still dead.'
 --- !u!60 &2060792313
@@ -5526,12 +5531,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - 'Now, it does look like a stuffed pig for the oven.
-
-'
+  - Now, it does look like a stuffed pig for the oven.
   use:
-  - You poke the aluminium foil wrapping softly, making sure not the tear it and ruin
-    it.
+  - I poke the aluminium foil wrapping softly, making sure not to tear it and ruin
+    the effect.
 --- !u!60 &2106940617
 PolygonCollider2D:
   m_ObjectHideFlags: 0
