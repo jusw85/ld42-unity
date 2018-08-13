@@ -130,6 +130,8 @@ GameObject:
   - component: {fileID: 218692}
   - component: {fileID: 218693}
   - component: {fileID: 218694}
+  - component: {fileID: 218695}
+  - component: {fileID: 218696}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -161,10 +163,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 218689}
-  selectedCommands:
-  - {fileID: 218690}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 218693}
   description: 
@@ -274,6 +274,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 218691}
   - {fileID: 218690}
+  - {fileID: 218695}
 --- !u!114 &218690
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -335,6 +336,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 218694}
+  - {fileID: 218696}
 --- !u!114 &218693
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -375,6 +377,39 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 1507852635}
+--- !u!114 &218695
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 218683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 7
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 46395db3abad52643aebc17a684cbcee, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &218696
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 218683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 0
+  soundClip: {fileID: 0}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!1 &30474682
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,7 +638,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 78329242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.821594, y: 311.63, z: 0}
+  m_LocalPosition: {x: -30.166748, y: 311.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 414723893}
@@ -944,8 +979,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 105241871}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 457, y: 270.5, z: 0}
-  m_LocalScale: {x: 0.95208335, y: 0.95208335, z: 0.95208335}
+  m_LocalPosition: {x: 480, y: 270, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 823834373}
   - {fileID: 1156744276}
@@ -1793,7 +1828,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 469457997}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 474.77838, y: -266.92502, z: 0}
+  m_LocalPosition: {x: 527.7667, y: -266.92502, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 791045423}
@@ -2505,7 +2540,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 767873338}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 385.1784, y: -86.869995, z: 0}
+  m_LocalPosition: {x: 438.16675, y: -86.869995, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 414723893}
@@ -2616,7 +2651,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 823834372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 480, y: 284.11377, z: 0}
+  m_LocalPosition: {x: 480, y: 270, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 242123887}
@@ -2861,7 +2896,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1156744275}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -284.11377, z: 0}
+  m_LocalPosition: {x: 0, y: -270, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 105241875}
@@ -4122,8 +4157,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1507852634}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 457, y: 270.5, z: 0}
-  m_LocalScale: {x: 0.45083332, y: 0.45083332, z: 0.45083332}
+  m_LocalPosition: {x: 480, y: 270, z: 0}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
   m_Children:
   - {fileID: 414723893}
   m_Father: {fileID: 0}
