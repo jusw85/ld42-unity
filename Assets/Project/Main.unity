@@ -617,6 +617,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: penis
   examine:
+  - 'description
+
+    A severed penis.'
+  - A severed penis.
+  - A severed cock.
+  - A severed pecker.
+  - A severed prick.
+  - A severed dick.
+  - A severed knob.
+  - A severed willy.
+  - A severed rod.
+  - A severed hot dog.
+  - A severed meat skewer.
+  - A severed bush whacker.
+  - A severed pussy hunter.
+  - A severed ass opener.
+  - A severed organ grinder.
+  - A severed one eyed rattlesnake.
+  - A severed Rumpleforeskin.
+  - A severed Long Dong Silver.
+  - A severed wedding wrecker.
   - A severed penis.
   use:
   - A severed penis.
@@ -2952,10 +2973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: plant
   examine:
-  - 'You examine the plant.
-
-
-    A fagrant herb used as seasoning.'
+  - A fagrant herb used as seasoning.
   use:
   - You poke the plant.
 --- !u!60 &902463426
@@ -3912,7 +3930,7 @@ MonoBehaviour:
   - 'You examine the bloodstained dress.
 
 
-    Oh yeah, this dress belong to the cross-dressing dead man here. I should hide
+    Oh yeah, this dress belong to the cross-dressing hentai freak here. I should hide
     it.'
   use:
   - You poke the dress.
@@ -4752,20 +4770,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: dildo
   examine:
-  - 'You examine the dildo.
+  - 'A huge 12 inch monster I bought as a gift for my girlfriend to compensate for
+    my inadequate 3 inch pecker that doesn''t quite get hard.{wi}
 
 
-    A huge 12 inch monster, I bought as a gift for my girlfriend, to compensate for
-    my inadequate 3 inch pecker that doesn''t get hard.
-
-'
-  - 'You examine the dildo.
-
-
-    If the cops sees this, it will invite questions. Better stuff it somewhere.
-
-'
+    If the cops see this, it will invite questions. Better stuff it somewhere.'
+  - If the cops see this, it will invite questions. Better stuff it somewhere.
   use:
+  - You poke the dildo.
   - You poke the dildo.
 --- !u!60 &1848727381
 PolygonCollider2D:
@@ -4936,10 +4948,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - "You examine the corpse.\n\nMale, early thirties, recently deceased, a hammer
-    blow to the back of the head.\nClothes were fully removed for the procedure to
-    surgically remove his member. \n\nI'm not proud of this job, but if my client
-    requested a specific male genitalia, I will deliver the goods."
+  - "Male, early thirties, recently deceased, a hammer blow to the back of the head.\nClothes
+    were fully removed for the procedure to surgically remove his member. \n\nI'm
+    not proud of this job, but if my client requested a specific male genitalia, I
+    will deliver the goods."
   - 'hmm...
 
 
