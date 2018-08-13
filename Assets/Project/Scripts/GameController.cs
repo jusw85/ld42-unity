@@ -71,6 +71,7 @@ public class GameController : Singleton<GameController> {
     public bool OnMouseDown(string id, string desc, string examine, string use) {
         if (isTextPanelOpen())
             return false;
+        flowChart.ExecuteBlock("PlaySound");
         string text = "";
         if (tool.Equals("eye")) {
             text = examine;
