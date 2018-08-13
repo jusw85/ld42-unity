@@ -4684,12 +4684,18 @@ MonoBehaviour:
   - o1: {fileID: 1345163383}
     o2: {fileID: 30474684}
     desc:
-    - I wrap the body up in aluminium foil. Looks like a roasted pig now!
+    - I gingerly pickup the penis and slide it into the pickle jar.
     toDisable:
     - {fileID: 1345163381}
     - {fileID: 30474682}
     toEnable:
     - {fileID: 577966252}
+  - o1: {fileID: 1880924198}
+    o2: {fileID: 30474684}
+    desc:
+    - Nope, that ship has already sailed.
+    toDisable: []
+    toEnable: []
 --- !u!1 &1793869548
 GameObject:
   m_ObjectHideFlags: 0
@@ -5145,6 +5151,9 @@ MonoBehaviour:
   actionText: {fileID: 1156744277}
   combinations: {fileID: 1630033826}
   flowChart: {fileID: 218684}
+  endObjs:
+  - {fileID: 577966252}
+  - {fileID: 2106940614}
 --- !u!4 &1968514753
 Transform:
   m_ObjectHideFlags: 0

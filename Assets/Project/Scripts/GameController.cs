@@ -12,6 +12,8 @@ public class GameController : Singleton<GameController> {
     public Combine combinations;
     public Flowchart flowChart;
 
+    public GameObject[] endObjs;
+
     [System.NonSerialized]
     public string tool;
     private bool isCombining = false;
@@ -97,7 +99,7 @@ public class GameController : Singleton<GameController> {
             }
         }
         UpdateActionText("");
-        if (false) { // To trigger on end condition
+        if (canEnd()) { // To trigger on end condition
             flowChart.SetBooleanVariable("toEnd", true);
         }
         flowChart.SetStringVariable("msg", text);
@@ -112,6 +114,18 @@ public class GameController : Singleton<GameController> {
             }
         }
         return false;
+    }
+
+    private bool canEnd() {
+        if (endObjs == null) {
+            return true;
+        }
+        foreach (GameObject obj in endObjs) {
+            if (!obj.activeSelf) {
+                return false;
+            }
+        }
+        return true;
     }
 
     private void UpdateActionText(string text) {
