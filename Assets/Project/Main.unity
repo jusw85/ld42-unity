@@ -1246,28 +1246,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: duct tape
   examine:
-  - 'You examine the duct tape.
-
-
-    Always handy to have duct tape lying around. Useful for tying objects.'
-  - 'You examine the duct tape.
-
-
-    Always {i}handy{/i} to have duct tape lying around. Useful for {i}tying{/i} objects.'
-  - 'You examine the duct tape.
-
-
-    Always handy to have duct tape lying around. Useful for tying objects.
+  - Always handy to have duct tape lying around. Useful for tying objects.
+  - Always {i}handy{/i} to have duct tape lying around. Useful for {i}tying{/i} objects.
+  - 'Always handy to have duct tape lying around. Useful for tying objects.
 
 
     ... handy ... duct tape ... tying...'
-  - 'You examine the duct tape.
-
-
-    A handy object that could be used to tie up something.'
+  - A handy object that could be used to tie up something.
   use:
-  - You pick up the roll of duct tape, and twirl it round your finger like a 5 year
-    old pretending to be a cowboy.
+  - I pick up the roll of duct tape and twirl it round my finger like a five year
+    old pretending to be a cowboy. Yee Haw!
 --- !u!60 &222281288
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3932,31 +3920,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: dress
   examine:
-  - 'You examine the dress.
+  - A pleasant floral sundress worn during happier times. Unfortunately it's drenched
+    in blood and more resembles a butcher's apron now.
+  - 'I have no recollection of this dress. Does it belong to my girlfriend?
 
-
-    I have no recollection of this dress. Does it belong to my girlfriend?
-
-    Too late for that now, I used whatever that was available to wipe the blood and
-    brain juice from my car.'
-  - 'You examine the blood stained dress.
-
-
-    Probably makes her look fat, that''s why she never wore this. She wouldn''t even
-    remember if this dress disappears.'
-  - 'You examine the blood stained dress.
-
-
-    A nice floral sundress that can be worn on happier times. Unfortunately it resembles
-    more like a butcher''s apron now.'
+    Too late for that now, I used whatever was available to wipe the blood and brain
+    juice from my car.'
+  - Probably makes her look fat, that's why she never wore it. She wouldn't even remember
+    if it disappears.
   - 'Perhaps I can fit into it. A perfect disguise! '
-  - 'You examine the bloodstained dress.
-
-
-    Oh yeah, this dress belong to the cross-dressing hentai freak here. I should hide
-    it.'
+  - Oh yeah, this dress belong to the cross-dressing hentai freak here. I should hide
+    it.
   use:
-  - You poke the dress.
+  - 'I scrounge the dress into a crumpled wad, push my face into it, and inhale deeply.
+    I drink in the floral notes of a soft perfume, mixed in with the primal scent
+    of desperate survival and something deeper, more primal, a feeling of carnivorous
+    desire at the moment of death.
+
+
+    Dammit I need to stop acting like a sick pervert. Focus on the job!'
 --- !u!60 &1426437247
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5403,7 +5385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: car
   examine:
-  - 'An early 2000 Toyota Camry.
+  - 'An early 2000 red Toyota Camry.
 
 
     Unfortunately I didn''t clear out the trunk before the mission.'
