@@ -1245,7 +1245,6 @@ MonoBehaviour:
   examine:
   - Always handy to have duct tape lying around. If it can't be fixed using duct tape,
     you aren't using enough duct tape.
-  - Always {i}handy{/i} to have duct tape lying around. Useful for {i}tying{/i} objects.
   use:
   - I pick up the roll of duct tape and twirl it round my finger like a five year
     old pretending to be a cowboy. Yee Haw!
@@ -3378,10 +3377,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: plant
   examine:
-  - A fagrant herb used for seasoning.
-  - It is my client's favourite herb. She loves any dish that comes with rosemary.
-  - 'Just a little rosemary added to a dish, accentuates the flavour. '
-  - My client will eat anything with rosemary in it.
+  - A fagrant herb used for seasoning. It's my client's favourite herb. She loves
+    any dish that comes with rosemary. Just a little rosemary added to a dish, accentuates
+    the flavour. My client will eat anything with rosemary on it.
   use:
   - 'I pluck a small leaf and hold it up to my nose. Sweet.
 
@@ -5125,7 +5123,17 @@ MonoBehaviour:
   - o1: {fileID: 1848727380}
     o2: {fileID: 1880924198}
     desc:
-    - I stuff the dildo into the corpse.
+    - 'I pick up the dildo and gingerly nudge it into the gaping hole where the corpse''s
+      cock used to be. As I slide it in, it seems to catch on something and refuses
+      to go in any further. I pull it out and push it back in, repeatedly with a little
+      more force each time, harder and faster into the tight gap, gasping with my
+      exertions, until it slides all the way in.
+
+      I suddenly have a thought somewhere in the back of my mind that somewhere out
+      there, some necrophiliac sex puppeteer was depraved enough to come up with this
+      scenario, but that''s neither here nor there.'
+    - Whew looks like it's finally all the way in, time to - JESUS FUCKING CHRIST
+      IS THAT SHIT SPEWING OUT OF HIS MOUTH! I'm gonna have plug this leak.
     toDisable:
     - {fileID: 1880924195}
     - {fileID: 1848727378}
@@ -5185,7 +5193,9 @@ MonoBehaviour:
   - o1: {fileID: 461593991}
     o2: {fileID: 607234089}
     desc:
-    - I stuff the wrapped hammer into the teddy.
+    - I gouge a hole in the back of the teddy and stuff the wrapped hammer inside,
+      then disguise the hole with parts of the dress. No one can tell there's a murder
+      weapon hidden inside the teddy!
     toDisable:
     - {fileID: 461593989}
     - {fileID: 607234087}
@@ -5194,12 +5204,19 @@ MonoBehaviour:
   - o1: {fileID: 1426437246}
     o2: {fileID: 2113023611}
     desc:
-    - I wrap the hammer in the dress.
+    - I wrap the hammer in the dress. Looks much softer now!
     toDisable:
     - {fileID: 1426437244}
     - {fileID: 2113023609}
     toEnable:
     - {fileID: 607234087}
+  - o1: {fileID: 461593991}
+    o2: {fileID: 2113023611}
+    desc:
+    - The teddy won't be enough to conceal the stiffness of the hammer. I'm gonna
+      need to soften it up first.
+    toDisable: []
+    toEnable: []
 --- !u!1 &1793869548
 GameObject:
   m_ObjectHideFlags: 0
@@ -5858,16 +5875,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - 'I examine the body with a stuffed dildo.
-
-
-    Kind of an upgrade if you ask me. With the arms and legs splayed to the side,
-    I have trouble fitting the body into the trunk.'
-  - JESUS FUCKING CHRIST there is shit coming out of his mouth! I need to clog this
-    shit hole immediately!
+  - 'I examine the corpse with a critical eye and try to determine the artistic merits
+    of  the piece. The dildo in his new vagina is kind of an upgrade if you ask me,
+    but the shit really diminishes the value of what could be a masterpiece. It''s
+    really distracting, and I think the shit really needs to be plugged before I can
+    proceed with my assessment '
   use:
-  - I almost wanted to touch the body but THE FUCKING SHIT on his MOUTH needs to be
-    PLUGGED.
+  - I reach out to touch the corpse but stop myself in time because THE FUCKING SHIT
+    in his MOUTH needs to be PLUGGED.
 --- !u!60 &2060792313
 PolygonCollider2D:
   m_ObjectHideFlags: 0
