@@ -2567,10 +2567,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: jar of pickles (with penis)
   examine:
-  - "A jar of pickles (with penis). \n\n"
+  - A jar of pickles, loaded with a penis.
   use:
-  - You screw the cover of the jar clockwise to tighten it. Or is it counter-clockwise?
-    No matter what, it is not opening.
+  - You screw the cover of the jar clockwise to tighten it. Or is it anti-clockwise?
+    No matter what, it's not opening.
 --- !u!60 &577966255
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3377,8 +3377,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: plant
   examine:
-  - A fagrant herb used for seasoning. It's my client's favourite herb. She loves
-    any dish that comes with rosemary. Just a little rosemary added to a dish, accentuates
+  - It's rosemary, a fagrant herb used for seasoning. It's my client's favourite herb,
+    and she loves any dish that comes with rosemary. A little rosemary really accentuates
     the flavour. My client will eat anything with rosemary on it.
   use:
   - 'I pluck a small leaf and hold it up to my nose. Sweet.
@@ -3647,18 +3647,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: shoe
   examine:
-  - Typical converse design, canvas with rubber sole and white toe cap.
-  - Typical converse design, 2 holes on the side that serves no purpose. A star shaped
+  - Typical Converse design, canvas with rubber sole and white toe cap.
+  - Typical Converse design, 2 holes on the side that serves no purpose. A star shaped
     logo on the side.
-  - Typical converse design, 6 pairs of eyelets with straight bar lacing. The "Converse
+  - Typical Converse design, 6 pairs of eyelets with straight bar lacing. The "Converse
     All Star" branding revealed at the tip of the tongue.
-  - 'Typical converse, wait..
+  - 'Typical Converse, wait...
 
-    Why only one side? where is the other shoe that comes with it?'
-  - 'Oh yea, I remember now. These were my converse. Loved it and worn it all the
-    time. Then one day, I was admiring this cute little Shih Tzu, and in a moment
-    of madness, I stepped its dog shit. The shoe was fucking ruined with dog shit.
-    I threw out the shit stained sneaker and never saw it again. '
+    Why only one shoe? Where''s the other shoe?'
+  - 'Oh yea, I remember now. These were my Converse sneakers. Loved it and wore it
+    all the time. Then one day, I was admiring this cute little Shih Tzu, and in a
+    moment of madness, I stepped into it''s shit. The shoe was fucking ruined with
+    dog shit. I threw out the shit stained sneaker and never saw it again. '
   - I don't know why I still keep this remaining shoe. It is as useless as the Shih
     Tzu shit shoe.
   use:
@@ -4097,9 +4097,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: jar of pickles
   examine:
-  - An empty jar which was used for pickles.
+  - A jar of pickles.
+  - A jar of long fat pickles.
   use:
-  - The jar is empty inside.
+  - I'm not hungry for pickles right now.
 --- !u!212 &1345163384
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5098,7 +5099,7 @@ MonoBehaviour:
   - o1: {fileID: 1880924198}
     o2: {fileID: 2113023611}
     desc:
-    - Geez, I've already killed him once, no add insult to injury.
+    - Geez, I've already killed him once, no need to add insult to injury.
     toDisable: []
     toEnable: []
   - o1: {fileID: 577966254}
@@ -5125,7 +5126,7 @@ MonoBehaviour:
     desc:
     - 'I pick up the dildo and gingerly nudge it into the gaping hole where the corpse''s
       cock used to be. As I slide it in, it seems to catch on something and refuses
-      to go in any further. I pull it out and push it back in, repeatedly with a little
+      to go in any further. I pull it out and push it back in repeatedly with a little
       more force each time, harder and faster into the tight gap, gasping with my
       exertions, until it slides all the way in.
 
@@ -5329,7 +5330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: teddy
   examine:
-  - It's almost as if this is the same teddy as before, except there's a hammer hidden
+  - It almost looks like the same teddy as before, except there's a hammer hidden
     in it.
   use:
   - I pick up the teddy. It's heavier but still soft and cuddly.
