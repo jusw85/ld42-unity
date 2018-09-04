@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 91.197815, y: 364.76923}
+  scrollPos: {x: -49.802185, y: 101.769226}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 404
@@ -174,8 +174,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 218692}
-  selectedCommands:
-  - {fileID: 218694}
+  selectedCommands: []
   variables:
   - {fileID: 218693}
   - {fileID: 218700}
@@ -945,9 +944,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - "WOW I finally plugged the fucking stink hole SHIT HEAD. \n\nThey say dead man
-    don't talk but no one told me that dead man SHITS from their MOUTH."
-  - Still a little stinky. I need to cover this odour with something.
+  - 'They say that dead man don''t talk but no one told me that dead man shit from
+    their mouth.
+
+
+    I''ll need to mask this odour with something.'
+  - I'll need to mask this odour with something.
   use:
   - Almost puked when I got near the body. I should do something about the smell.
 --- !u!60 &95652391
@@ -3791,8 +3793,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   desc: body
   examine:
-  - I examine the well tied up body.
-  - It is almost as if I am preparing a dish for dinner. Just one more step.
+  - I examine the well tied up body. It is almost as if I am preparing a dish for
+    dinner. Just one more step.
   use:
   - I almost grabbed the body, but find the raw, naked skin repulsive.
 --- !u!60 &1337906162
@@ -5132,9 +5134,9 @@ MonoBehaviour:
 
       I suddenly have a thought somewhere in the back of my mind that somewhere out
       there, some necrophiliac sex puppeteer was depraved enough to come up with this
-      scenario, but that''s neither here nor there.'
-    - Whew looks like it's finally all the way in, time to - JESUS FUCKING CHRIST
-      IS THAT SHIT SPEWING OUT OF HIS MOUTH! I'm gonna have plug this leak.
+      scenario, but that''s neither here nor there.{wc}Whew looks like it''s finally
+      all the way in, time to - JESUS FUCKING CHRIST IS THAT SHIT SPEWING OUT OF HIS
+      MOUTH! I''m gonna have plug this leak.'
     toDisable:
     - {fileID: 1880924195}
     - {fileID: 1848727378}
@@ -5143,7 +5145,15 @@ MonoBehaviour:
   - o1: {fileID: 2060792312}
     o2: {fileID: 1253112066}
     desc:
-    - I push the shoe into his mouth.
+    - I grab my shoe and push it into the corpse's mouth. His small mouth barely accommodates
+      the large shoe, but I persist and shove it deep into his throat, causing the
+      shit to dribble all over the shoe and his mouth. The dildo starting sliding
+      out and looks like it's about to pop out, but I use one hand to push it back
+      in while my other hand manoeuvres the shoe deeper down his throat. It seems
+      impossible to keep them in place but I use both my hands to pump simultaneously
+      until his eyes start sliding backwards.{wc}There! All done. Now that I've hidden
+      the shit, the smell that began assaulting my nose fifteen minutes ago hits me
+      with full force. Damn that stinks to high heaven!
     toDisable:
     - {fileID: 2060792310}
     - {fileID: 1253112064}
@@ -5152,7 +5162,11 @@ MonoBehaviour:
   - o1: {fileID: 95652390}
     o2: {fileID: 902463425}
     desc:
-    - I sprinkle some herbs on his body to mask the stench of death.
+    - I grab some sprigs of rosemary and do my best impression of Salt Bae over the
+      corpse. Too bad I didn't bring my Oakleys otherwise I'd totally nail that impression.
+      At least I managed to mask the the stench of death and shit. All that's left
+      to do now is to load the corpse into the car. With his arms and legs splayed
+      to the side, I'll have trouble fitting the body into the trunk.
     toDisable:
     - {fileID: 95652388}
     - {fileID: 902463423}
@@ -5161,7 +5175,14 @@ MonoBehaviour:
   - o1: {fileID: 1490872470}
     o2: {fileID: 222281287}
     desc:
-    - I tie up his arms and legs with duct tape.
+    - 'I push his arms and legs together, then hold it in place with duct tape, the
+      same way I used to with my ex girlfriend. I''m talking about yoga, what were
+      you thinking!
+
+
+      The corpse is now in a mock caricature of Lotus Pose. I certainly hope his chakras
+      are aligned, might help with his reincarnation. All that''s left to do now is
+      to conceal the body.'
     toDisable:
     - {fileID: 1490872468}
     - {fileID: 222281285}
@@ -5179,7 +5200,9 @@ MonoBehaviour:
   - o1: {fileID: 1345163383}
     o2: {fileID: 30474684}
     desc:
-    - I gingerly pickup the penis and slide it into the pickle jar.
+    - I gingerly pickup the penis and slide it into the pickle jar. I can almost notice
+      the penis amongst the pickles. It'll pass a casual inspection, but won't hold
+      up to scrutiny. I'll need to conceal this further.
     toDisable:
     - {fileID: 1345163381}
     - {fileID: 30474682}
